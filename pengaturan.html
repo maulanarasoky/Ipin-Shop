@@ -1,0 +1,216 @@
+<!-- Author	: MERAH PUTIH SQUAD -->
+<!-- "We are IndONEsia, we are ONE" -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>IPIN SHOP</title>
+	<link rel="stylesheet" type="text/css" href="CSS/style.css">
+	<link rel="icon" href="images/google.png">
+	<script type="text/javascript" src="Jquery/jquery-3.3.1.min.js"></script>
+	<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	<script>
+	$(document).ready(function(){
+   $(".navbar ul li#keranjang").click(function(){
+   		$(".keranjangss").css({"display":"block"});
+   		$(".gede").css({"display":"block"});
+        $("body").css({"overflow":"hidden"});
+   });
+   $(".gede").click(function(){
+   		$(".keranjangss").css({"display":"none"});
+   		$(".gede").css({"display":"none"});
+        $(".navbar").css({"z-index":"1"});
+        $("body").css({"overflow":"scroll"});
+   });
+});
+	</script>
+</head>
+<body id="atur">
+<div class="gede"></div>
+	<div class="navbar">
+		<ul>
+		<form>
+			<li id="logo"><a href="user-home.html"><img src="images/logo.png"></a></li>
+			<li id="kategori"><a href="#">Kategori v</a>
+			<div class="dropdown">
+				<table>
+					<tr>
+						<td><a href="#">Fashion Wanita</a></td>
+						<td>|<a href="#">Fashion Pria</a></td>
+					</tr>
+					<tr>
+						<td><a href="#">Kecantikan</a></td>
+						<td>|<a href="#">Kesehatan</a></td>
+					</tr>
+					<tr>
+						<td><a href="#">Laptop &#38; Aksesoris</a></td>
+						<td>|<a href="#">Komputer &#38; Aksesoris</a></td>
+					</tr>
+					<tr>
+						<td><a href="#">Gaming</a></td>
+						<td>|<a href="#">Ibu &#38; Bayi</a></td>
+					</tr>
+					<tr>
+						<td><a href="#">Makanan &#38; Minuman</a></td>
+						<td>|<a href="#">Souvenir &#38; Kado</a></td>
+					</tr>
+					<tr>
+						<td><a href="#">Olahraga</a></td>
+						<td>|<a href="#">Film &#38; Musik</a></td>
+					</tr>
+					<tr>
+						<td><a href="#">Fashion Muslim</a></td>
+						<td>|<a href="#">Fashion Anak</a></td>
+					</tr>
+					<tr>
+						<td><a href="#">Perawatan Tubuh</a></td>
+						<td>|<a href="#">Handphone &#38; Tablet</a></td>
+					</tr>
+					<tr>
+						<td><a href="#">Elektronik</a></td>
+						<td>|<a href="#">Kamera</a></td>
+					</tr>
+					<tr>
+						<td><a href="#">Rumah Tangga</a></td>
+						<td>|<a href="#">Dapur</a></td>
+					</tr>
+					<tr>
+						<td><a href="#">Buku</a></td>
+						<td>|<a href="#">Otomotif</a></td>
+					</tr>
+					<tr>
+						<td><a href="#">Office &#38; Stationery</a></td>
+						<td>|<a href="#">Mainan &#38; Hobi</a></td>
+					</tr>
+				</table>
+			</div>
+			</li>
+			<li id="search"><input type="text" placeholder="Cari produk atau toko...">
+			<button id="cari">Cari</button></li>
+			<li id="keranjang"><a href="#"><img src="images/keranjang.png"></a></li>
+			<li id="user">Ipin Shop <img src="images/user.png">
+			<div class="dropuser">
+			<table>
+				<tr>
+					<td id="nama"><a href="profil.html">Ipin Shop<br></a>member</td>
+					<td id="ikon"><img src="images/user.png"></td>
+				</tr>
+				<tr>
+					<td id="keranjangg"><a href="checkout,htnk">Keranjang</a></td>
+					<td id="kosong"></td>
+				</tr>
+				<tr>
+					<td><a href="checkout.html">Checkout</a></td>
+				</tr>
+				<tr>
+					<td><a href="wishlist.html">Wishlist</a></td>
+				</tr>
+				<tr>
+					<td id="bantuan"><a href="">Bantuan</a></td>
+					<td id="kosong"></td>
+				</tr>
+				<tr>
+					<td><a href="pengaturan.html">Pengaturan</a></td>
+				</tr>
+				<tr>
+					<td><a href="home.html">Keluar</a></td>
+				</tr>
+				</table>
+			</div>
+			</li>
+			</form>
+		</ul>
+	</div>
+	<div class="keranjangss">
+		 <div class="barang">
+      <img src="images/kotak.png">
+      <p id="satu">Acer Swift - Flash Sale</p><br>
+      <p id="harga">Rp. 6.500.000<br><span>1 buah</span></p>
+    </div>
+		<br>
+		<br>
+		<h4><a href="#">Lihat Semua</a></h4>
+	</div>
+
+	<div class="pengaturan">
+		<div class="foto">
+			<img src="images/user.png"><br>
+			<input type="file" value="Ubah" id="ubah">
+		</div>
+		<div class="ubahprofil">
+			<div class="judull">
+      			<p id="kiri"><a href="pengaturan.html">Ubah Profile</a></p>
+      			<hr id="kirii">
+      			<hr id="kiri">
+      			<p id="tengah"><a href="alamat.html">Alamat</a></p>
+      			<hr id="tengahh">
+      			<hr id="tengah">
+      			<p id="kanan"><a href="wishlist.html">Wishlist</a></p>
+      			<hr id="kanann">
+      			<hr id="kanan">
+    		</div>
+    		<div class="data">
+    			<form>
+    				<table>
+    					<tr id="nama">
+    						<td>Nama Lengkap</td>
+    					</tr>
+    					<tr>
+    						<td><input type="text" id="nama"></td>
+    					</tr>
+    					<tr id="email">
+    						<td>Email</td>
+    					</tr>
+    					<tr>
+    						<td><input type="text" id="mail"></td>
+    					</tr>
+    					<tr>
+    						<td>Nomor Telepon</td>
+    					</tr>
+    					<tr>
+    						<td><input type="text" id="number"></td>
+    					</tr>
+    					<tr>
+    						<td><input type="submit" value="Simpan Perubahan" formaction="profil.html"></td>
+    					</tr>
+    				</table>
+    			</form>
+    		</div>
+		</div>
+	</div>
+	<div class="footsale">
+  <div class="garis"></div>
+  <div class="footer">
+    <div class="pilihan">
+      <img src="images/pengiriman.png" id="pengiriman">
+    </div>
+    <div class="pilihan">
+      <img src="images/cicilan.png">
+      <!--<p>Cicilan 25 %</p>-->
+    </div>
+    <hr>
+    <div class="terakhir">
+    <div class="bantuan">
+      <h3 id="kiri">BANTUAN</h3>
+      <p><a href="#">Pembayaran</a><br><a href="#">Pengiriman</a><br><a href="#">Status Pesanan</a><br><a href="#">Cara Berbelanja</a></p>
+    </div>
+    <div class="info">
+      <h3>CUSTOMER CARE</h3>
+      <p>Buka 24 jam setiap hari<br><img src="images/telepon.png">0804 1871 871<br><a href="#"><img src="images/mail.png" id="mail">arifin.shop@gmail.com</a></p>
+    </div>
+    <div class="blibli">
+      <h3>Tentang Kami</h3>
+      <p><a href="#">Tentang Ipin Shop</a></p>
+    </div>
+    <div class="follow">
+      <h3>IKUTI KAMI</h3>
+      <div class="sosmed">
+        <img src="images/FB.png">
+        <img src="images/twitter.png">
+        <img src="images/instagram.png">
+      </div>
+    </div>
+    </div>
+  </div>
+  </div>
+</body>
+</html>
